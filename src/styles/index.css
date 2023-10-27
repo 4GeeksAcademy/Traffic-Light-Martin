@@ -28,8 +28,29 @@ body {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background-color: yellow;
     margin: 20px;
+}
+.overlay {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background-size: 100%;
+    opacity: 0.3;
+    pointer-events: none;
+    
+}
+
+.r {
+    top: 135px;
+}
+
+.y {
+    top: 275px;
+}
+
+.g {
+    top: 415px;
 }
 
 .red {

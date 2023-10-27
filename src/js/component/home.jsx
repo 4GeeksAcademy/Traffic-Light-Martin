@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import mesh from '../../img/mesh.png'
 
 const Home = () => {
     const colors = ["red", "yellow", "green"];
@@ -27,6 +28,9 @@ const Home = () => {
 
 	return (
 		<div className="holder bg-dark d-flex d-flex justify-content-center align-items-center mx-auto">
+			<div className="overlay r" style={{ backgroundImage: `url(${mesh})` }}></div>
+			<div className="overlay y" style={{ backgroundImage: `url(${mesh})` }}></div>
+			<div className="overlay g" style={{ backgroundImage: `url(${mesh})` }}></div>
 			<div className="row traffic-light text-center bg-dark d-flex justify-content-center align-items-center m-auto">
 				<div
 				 onClick={() => setSelectedColor(colors[0])}
