@@ -52,9 +52,9 @@ const Home = () => {
 				 type="button"
 				 onClick={goTraffic} 
 				 className=
-				 {"btn btn-info" +
+				 {"btn btn-success" +
 				 (selectedColor === "green" || selectedColor === "red" || selectedColor === "yellow" 
-				  ?  " " + selectedColor + "-on theButton" : "")}>
+				  ?  " " + "theButton" : "")}>
 					{shouldStartInterval ? "STOP" : "GO"}
 				</button>
 			  </div>
