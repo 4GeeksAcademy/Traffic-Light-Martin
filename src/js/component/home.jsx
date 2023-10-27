@@ -52,7 +52,7 @@ const Home = () => {
 				 type="button"
 				 onClick={goTraffic} 
 				 className=
-				 {"btn btn-outline-secondary btn-lg" +
+				 {"btn btn-info" +
 				 (selectedColor === "green" || selectedColor === "red" || selectedColor === "yellow" 
 				  ?  " " + selectedColor + "-on theButton" : "")}>
 					{shouldStartInterval ? "STOP" : "GO"}
